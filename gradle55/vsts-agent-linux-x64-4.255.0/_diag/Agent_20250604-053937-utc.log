@@ -1,0 +1,533 @@
+[2025-06-04 05:39:37Z INFO AgentProcess] Agent package linux-x64.
+[2025-06-04 05:39:37Z INFO AgentProcess] Running on Linux (X64).
+[2025-06-04 05:39:37Z INFO AgentProcess] RuntimeInformation: Ubuntu 22.04.5 LTS.
+[2025-06-04 05:39:37Z INFO AgentProcess] Version: 4.255.0
+[2025-06-04 05:39:37Z INFO AgentProcess] Commit: 470b366b07474086350f1b664c1cd1972e9e637e
+[2025-06-04 05:39:37Z INFO AgentProcess] Culture: en-IN
+[2025-06-04 05:39:37Z INFO AgentProcess] UI Culture: en-IN
+[2025-06-04 05:39:37Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:37Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:37Z INFO AgentProcess] Validating directory permissions for: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:37Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:37Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO CommandSettings] Run {
+  "Commit": false,
+  "Diagnostics": false,
+  "RunOnce": false,
+  "StartupType": null,
+  "DebugMode": false,
+  "Help": false,
+  "Version": false
+}
+[2025-06-04 05:39:38Z INFO AgentProcess] Arguments parsed
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO HostContext] Well known config file 'Proxy': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.proxy'
+[2025-06-04 05:39:38Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO HostContext] Well known config file 'Certificates': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.certificates'
+[2025-06-04 05:39:38Z INFO AgentCertificateManager] No certificate setting found.
+[2025-06-04 05:39:38Z INFO Agent] ExecuteCommand
+[2025-06-04 05:39:38Z INFO ConfigurationStore] currentAssemblyLocation: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin/Agent.Listener.dll
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO ConfigurationStore] binPath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO ConfigurationStore] RootFolder: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO HostContext] Well known config file 'Agent': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.agent'
+[2025-06-04 05:39:38Z INFO ConfigurationStore] ConfigFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.agent
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO HostContext] Well known config file 'Credentials': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials'
+[2025-06-04 05:39:38Z INFO ConfigurationStore] CredFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO HostContext] Well known config file 'Service': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.service'
+[2025-06-04 05:39:38Z INFO ConfigurationStore] ServiceConfigFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.service
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO HostContext] Well known config file 'Autologon': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.autologon'
+[2025-06-04 05:39:38Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.autologon
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO HostContext] Well known config file 'Options': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.options'
+[2025-06-04 05:39:38Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.options
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO HostContext] Well known config file 'SetupInfo': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.setup_info'
+[2025-06-04 05:39:38Z INFO ConfigurationStore] SetupInfoFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.setup_info
+[2025-06-04 05:39:38Z INFO ConfigurationManager] LoadSettings
+[2025-06-04 05:39:38Z INFO ConfigurationStore] IsConfigured()
+[2025-06-04 05:39:38Z INFO ConfigurationStore] IsConfigured: True
+[2025-06-04 05:39:38Z INFO ConfigurationManager] Is configured: True
+[2025-06-04 05:39:38Z INFO ConfigurationStore] Read setting file: 191 chars
+[2025-06-04 05:39:38Z INFO ConfigurationManager] Settings Loaded
+[2025-06-04 05:39:38Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-06-04 05:39:38Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-06-04 05:39:38Z INFO ConfigurationStore] IsConfigured()
+[2025-06-04 05:39:38Z INFO ConfigurationStore] IsConfigured: True
+[2025-06-04 05:39:38Z INFO ConfigurationManager] Is configured: True
+[2025-06-04 05:39:38Z INFO Agent] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-06-04 05:39:38Z INFO Agent] Set agent startup type - Manual
+[2025-06-04 05:39:38Z INFO CommandSettings] Flag 'debug': 'False'
+[2025-06-04 05:39:38Z INFO ConfigurationStore] HasCredentials()
+[2025-06-04 05:39:38Z INFO ConfigurationStore] stored True
+[2025-06-04 05:39:38Z INFO CredentialManager] GetCredentialProvider
+[2025-06-04 05:39:38Z INFO CredentialManager] Creating type OAuth
+[2025-06-04 05:39:38Z INFO CredentialManager] Creating credential type: OAuth
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:38Z INFO HostContext] Well known config file 'RSACredentials': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams'
+[2025-06-04 05:39:38Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:39:38Z INFO ConfigurationManager] LoadSettings
+[2025-06-04 05:39:38Z INFO ConfigurationStore] IsConfigured()
+[2025-06-04 05:39:38Z INFO ConfigurationStore] IsConfigured: True
+[2025-06-04 05:39:38Z INFO ConfigurationManager] Is configured: True
+[2025-06-04 05:39:38Z INFO ConfigurationManager] Settings Loaded
+[2025-06-04 05:39:41Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 82166d3a-8550-4c7f-b30f-085be0b63b55
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 70f51edf-2986-48a7-a0f5-9bb796d44d41
+X-TFS-Session: 6b270616-00da-4786-8b90-72c343841bbc
+X-VSS-E2EID: 4fa78283-9b33-4c46-954d-2f11bf9daf32
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/gg00/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/gg00/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fgg00%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&mkt=en-IN&hid=c1aef65c-7fc9-4949-9e78-2f4eb5c73b9d&context=eyJodCI6MiwiaGlkIjoiNzViZGE2NzktMzU3Ni00NTJlLTlmOTAtZGE4OWE2NjljZWYxIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 222C72135BEB4A719C019F098CD1D353 Ref B: MAA01EDGE0517 Ref C: 2025-06-04T05:39:40Z
+Date: Wed, 04 Jun 2025 05:39:40 GMT
+
+[2025-06-04 05:39:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:39:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:39:43Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-06-04 05:39:43Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.1995276 seconds)
+[2025-06-04 05:39:44Z INFO CommandSettings] Flag 'once': 'False'
+[2025-06-04 05:39:44Z INFO CommandSettings] Flag 'once': 'False'
+[2025-06-04 05:39:44Z INFO Agent] RunAsync
+[2025-06-04 05:39:44Z INFO ConfigurationManager] LoadSettings
+[2025-06-04 05:39:44Z INFO ConfigurationStore] IsConfigured()
+[2025-06-04 05:39:44Z INFO ConfigurationStore] IsConfigured: True
+[2025-06-04 05:39:44Z INFO ConfigurationManager] Is configured: True
+[2025-06-04 05:39:44Z INFO ConfigurationManager] Settings Loaded
+[2025-06-04 05:39:44Z INFO MessageListener] {
+  "AcceptTeeEula": true,
+  "AgentId": 9,
+  "AgentName": "shruthi-VirtualBox",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://dev.azure.com/gg00/",
+  "WorkFolder": "_work"
+}
+[2025-06-04 05:39:44Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2025-06-04 05:39:44Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2025-06-04 05:39:44Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-06-04 05:39:44Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-06-04 05:39:44Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-06-04 05:39:44Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding '_': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin/Agent.Listener'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'COLORTERM': 'truecolor'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'DESKTOP_SESSION': 'ubuntu'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'DISPLAY': ':0'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'GDMSESSION': 'ubuntu'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_SETUP_DISPLAY': ':1'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_SHELL_SESSION_MODE': 'ubuntu'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a2415fb7_9e27_4f02_965a_a3130b39a62b'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_TERMINAL_SERVICE': ':1.163'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'GTK_MODULES': 'gail:atk-bridge'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/shruthi'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'IM_CONFIG_PHASE': '1'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_IN'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LANGUAGE': 'en_IN:en'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LESSCLOSE': '/usr/bin/lesspipe %s %s'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LESSOPEN': '| /usr/bin/lesspipe %s'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'shruthi'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Skipping: 'LS_COLORS'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/home/shruthi/Desktop/gradle55'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'QT_ACCESSIBILITY': '1'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'QT_IM_MODULE': 'ibus'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'SESSION_MANAGER': 'local/shruthi-VirtualBox:@/tmp/.ICE-unix/1068,unix/shruthi-VirtualBox:/tmp/.ICE-unix/1068'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_AGENT_LAUNCHER': 'gnome-keyring'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'SYSTEMD_EXEC_PID': '1116'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'shruthi'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'USERNAME': 'shruthi'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'VTE_VERSION': '6800'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'WAYLAND_DISPLAY': 'wayland-0'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q9I262'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_MENU_PREFIX': 'gnome-'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_RUNTIME_DIR': '/run/user/1000'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_SESSION_CLASS': 'user'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_SESSION_DESKTOP': 'ubuntu'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_SESSION_TYPE': 'wayland'
+[2025-06-04 05:39:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XMODIFIERS': '@im=ibus'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'android'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Checking file: '/home/shruthi/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'ant'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Adding 'ant': '/usr/bin/ant'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'clang'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'curl'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'docker'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'git'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'java'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Adding 'java': '/usr/bin/java'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'javac'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Adding 'JDK': '/usr/bin/javac'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'make'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Adding 'maven': '/usr/bin/mvn'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'node'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'npm'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'python'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'python3'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Adding 'python3': '/usr/bin/python3'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'sh'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Adding 'sh': '/usr/bin/sh'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'rake'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'generator'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2025-06-04 05:39:44Z INFO CapabilitiesBuilder] Not found.
+[2025-06-04 05:39:44Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:44Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'shruthi-VirtualBox'
+[2025-06-04 05:39:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2025-06-04 05:39:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2025-06-04 05:39:44Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2025-06-04 05:39:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '4.255.0'
+[2025-06-04 05:39:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'shruthi-VirtualBox'
+[2025-06-04 05:39:44Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:39:44Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:39:44Z INFO MessageListener] Loading Credentials
+[2025-06-04 05:39:44Z INFO ConfigurationStore] HasCredentials()
+[2025-06-04 05:39:44Z INFO ConfigurationStore] stored True
+[2025-06-04 05:39:44Z INFO CredentialManager] GetCredentialProvider
+[2025-06-04 05:39:44Z INFO CredentialManager] Creating type OAuth
+[2025-06-04 05:39:44Z INFO CredentialManager] Creating credential type: OAuth
+[2025-06-04 05:39:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:39:44Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2025-06-04 05:39:44Z INFO MessageListener] Attempt to create session.
+[2025-06-04 05:39:44Z INFO MessageListener] Connecting to the Agent Server...
+[2025-06-04 05:39:44Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2025-06-04 05:39:44Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:39:45Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: d1e30da4-2564-42b0-8c76-3b31936d5e28
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 8b93d692-9a9f-4873-a46d-422349398c40
+X-TFS-Session: 6b270616-00da-4786-8b90-72c343841bbc
+X-VSS-E2EID: bad87e0f-2a49-45ec-a31d-5447fccb61ff
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/gg00/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/gg00/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fgg00%2F_apis%2FconnectionData%3FconnectOptions%3D0%26lastChangeId%3D22286357%26lastChangeId64%3D22286357&redirect=1&mkt=en-IN&hid=c1aef65c-7fc9-4949-9e78-2f4eb5c73b9d&context=eyJodCI6MiwiaGlkIjoiNzViZGE2NzktMzU3Ni00NTJlLTlmOTAtZGE4OWE2NjljZWYxIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 80181057E258490FB18747071FE3D5FD Ref B: MAA01EDGE1518 Ref C: 2025-06-04T05:39:45Z
+Date: Wed, 04 Jun 2025 05:39:44 GMT
+
+[2025-06-04 05:39:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:39:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:39:47Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-06-04 05:39:47Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:39:47Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-06-04 05:39:47Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:39:47Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-06-04 05:39:47Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:39:49Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:39:49Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:39:49Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:39:49Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:39:49Z INFO MessageListener] VssConnection created
+[2025-06-04 05:39:50Z INFO MessageListener] Session created.
+[2025-06-04 05:39:50Z INFO Terminal] WRITE LINE: 2025-06-04 05:39:50Z: Listening for Jobs
+[2025-06-04 05:39:50Z INFO JobDispatcher] Set agent/worker IPC timeout to 30 seconds.
+[2025-06-04 05:40:41Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session 'e7b7c3bc-622c-4e4d-8a7e-5dc5dc745245'.
+[2025-06-04 05:40:41Z INFO MessageListener] Sleeping for 12.262 seconds before retrying.
+[2025-06-04 05:41:43Z INFO MessageListener] Sleeping for 12.054 seconds before retrying.
+[2025-06-04 05:41:56Z INFO MessageListener] Sleeping for 5.409 seconds before retrying.
+[2025-06-04 05:41:56Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session 'e7b7c3bc-622c-4e4d-8a7e-5dc5dc745245'.
+[2025-06-04 05:42:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:42:04Z INFO MessageListener] Message '1' received from session 'e7b7c3bc-622c-4e4d-8a7e-5dc5dc745245'.
+[2025-06-04 05:42:04Z INFO JobDispatcher] Job request 1 for plan baff3bc1-3d3a-4d5c-8bdf-efe1c019484f job 12f1170f-54f2-53f3-20dd-22fc7dff55f9 received.
+[2025-06-04 05:42:04Z INFO Terminal] WRITE LINE: 2025-06-04 05:42:04Z: Running job: Job
+[2025-06-04 05:42:04Z INFO AgentServer] Refresh JobRequest VssConnection to get on a different AFD node.
+[2025-06-04 05:42:04Z INFO AgentServer] Establish connection with 30 seconds timeout.
+[2025-06-04 05:42:04Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:42:05Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:42:05Z INFO JobDispatcher] Start renew job request 1 for job 12f1170f-54f2-53f3-20dd-22fc7dff55f9.
+[2025-06-04 05:42:05Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 04/06/2025 5:52:06 am
+[2025-06-04 05:42:05Z INFO ConfigurationStore] HasCredentials()
+[2025-06-04 05:42:05Z INFO ConfigurationStore] stored True
+[2025-06-04 05:42:05Z INFO CredentialManager] GetCredentialProvider
+[2025-06-04 05:42:05Z INFO CredentialManager] Creating type OAuth
+[2025-06-04 05:42:05Z INFO CredentialManager] Creating credential type: OAuth
+[2025-06-04 05:42:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:42:05Z INFO ConfigurationManager] LoadSettings
+[2025-06-04 05:42:05Z INFO ConfigurationStore] IsConfigured()
+[2025-06-04 05:42:05Z INFO ConfigurationStore] IsConfigured: True
+[2025-06-04 05:42:05Z INFO ConfigurationManager] Is configured: True
+[2025-06-04 05:42:05Z INFO ConfigurationManager] Settings Loaded
+[2025-06-04 05:42:06Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 9acf4543-c1e5-4d4e-8df6-258301ae71a6
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 93dbbd35-32a9-4150-8c82-a465cb537755
+X-TFS-Session: 6b270616-00da-4786-8b90-72c343841bbc
+X-VSS-E2EID: 1228aac1-336d-42ad-a9f7-7a39db5b39b6
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/gg00/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/gg00/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fgg00%2F_apis%2FFeatureFlags%2FDistributedTask.Agent.EnableNewMaskerAndRegexes%3FcheckFeatureExists%3DFalse&redirect=1&mkt=en-IN&hid=c1aef65c-7fc9-4949-9e78-2f4eb5c73b9d&context=eyJodCI6MiwiaGlkIjoiNzViZGE2NzktMzU3Ni00NTJlLTlmOTAtZGE4OWE2NjljZWYxIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 9EEAE6BEF2894950A82928A3B37F2DD1 Ref B: MAA01EDGE0405 Ref C: 2025-06-04T05:42:06Z
+Date: Wed, 04 Jun 2025 05:42:06 GMT
+
+[2025-06-04 05:42:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:42:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:42:07Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-06-04 05:42:07Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin/Agent.Worker'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 169 172'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:42:07Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:42:08Z INFO ProcessInvokerWrapper] Process started with process id 9790, waiting for process exit.
+[2025-06-04 05:42:08Z INFO JobDispatcher] Send job request message to worker for job 12f1170f-54f2-53f3-20dd-22fc7dff55f9 (40 KB).
+[2025-06-04 05:42:08Z INFO JobDispatcher] Took 6 ms to send job message to worker
+[2025-06-04 05:42:08Z INFO JobNotification] Entering JobStarted Notification
+[2025-06-04 05:42:08Z INFO JobNotification] Entering StartMonitor
+[2025-06-04 05:42:26Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session 'e7b7c3bc-622c-4e4d-8a7e-5dc5dc745245'.
+[2025-06-04 05:42:56Z INFO MessageListener] Sleeping for 10.247 seconds before retrying.
+[2025-06-04 05:43:06Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 04/06/2025 5:53:06 am
+[2025-06-04 05:44:48Z WARN VisualStudioServices] GET request to https://dev.azure.com/gg00/_apis/distributedtask/pools/1/messages timed out after 60 seconds.
+[2025-06-04 05:44:57Z WARN VisualStudioServices] Attempt 1 of PATCH request to https://dev.azure.com/gg00/_apis/distributedtask/pools/1/jobrequests/1 failed (Socket Error: ConnectionReset). The operation will be retried in 11.0813869 seconds.
+[2025-06-04 05:44:58Z WARN VisualStudioServices] GET request to https://dev.azure.com/gg00/_apis/distributedtask/pools/1/messages timed out after 60 seconds.
+[2025-06-04 05:44:58Z ERR  MessageListener] Catch exception during get next message.
+[2025-06-04 05:44:58Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.<EnsureReadAheadTaskHasStarted>g__ReadAheadWithZeroByteReadAsync|40_0()
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.GetNextMessageAsync(CancellationToken token) in /mnt/vss/_work/1/s/src/Agent.Listener/MessageListener.cs:line 178
+[2025-06-04 05:44:58Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2025-06-04 05:44:58Z ERR  Terminal] WRITE ERROR: 2025-06-04 05:44:58Z: Agent connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2025-06-04 05:44:58Z INFO AgentServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2025-06-04 05:44:58Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-06-04 05:44:58Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:44:59Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:44:59Z INFO MessageListener] Sleeping for 15.276 seconds before retrying.
+[2025-06-04 05:45:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:45:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:45:03Z INFO ProcessInvokerWrapper] Exited process 9790 with exit code 102
+[2025-06-04 05:45:03Z INFO ProcessInvokerWrapper] Finished process 9790 with exit code 102, and elapsed time 00:02:04.0644519.
+[2025-06-04 05:45:03Z INFO JobDispatcher] Worker finished for job 12f1170f-54f2-53f3-20dd-22fc7dff55f9. Code: 102
+[2025-06-04 05:45:03Z INFO JobDispatcher] finish job request for job 12f1170f-54f2-53f3-20dd-22fc7dff55f9 with result: Failed
+[2025-06-04 05:45:03Z INFO Terminal] WRITE LINE: 2025-06-04 05:45:03Z: Job Job completed with result: Failed
+[2025-06-04 05:45:03Z INFO JobDispatcher] Stop renew job request for job 12f1170f-54f2-53f3-20dd-22fc7dff55f9.
+[2025-06-04 05:45:03Z INFO JobDispatcher] job renew has been canceled, stop renew job request 1.
+[2025-06-04 05:45:03Z INFO JobNotification] Entering JobCompleted Notification
+[2025-06-04 05:45:03Z INFO JobNotification] Entering EndMonitor
+[2025-06-04 05:45:14Z INFO MessageListener] Sleeping for 7.953 seconds before retrying.
+[2025-06-04 05:45:22Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session 'e7b7c3bc-622c-4e4d-8a7e-5dc5dc745245'.
+[2025-06-04 05:45:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:45:24Z INFO Terminal] WRITE LINE: 2025-06-04 05:45:24Z: Agent reconnected.
+[2025-06-04 05:45:24Z INFO MessageListener] Message '2' received from session 'e7b7c3bc-622c-4e4d-8a7e-5dc5dc745245'.
+[2025-06-04 05:45:24Z INFO JobDispatcher] Job request 2 for plan 49c2d856-b328-41f2-a638-f7d8f6bfdce1 job 12f1170f-54f2-53f3-20dd-22fc7dff55f9 received.
+[2025-06-04 05:45:24Z INFO JobDispatcher] Job request 12f1170f-54f2-53f3-20dd-22fc7dff55f9 processed succeed.
+[2025-06-04 05:45:24Z INFO Terminal] WRITE LINE: 2025-06-04 05:45:24Z: Running job: Job
+[2025-06-04 05:45:24Z INFO AgentServer] Refresh JobRequest VssConnection to get on a different AFD node.
+[2025-06-04 05:45:24Z INFO AgentServer] Establish connection with 30 seconds timeout.
+[2025-06-04 05:45:24Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:45:24Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:45:24Z INFO JobDispatcher] Start renew job request 2 for job 12f1170f-54f2-53f3-20dd-22fc7dff55f9.
+[2025-06-04 05:45:24Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 04/06/2025 5:55:24 am
+[2025-06-04 05:45:24Z INFO ConfigurationStore] HasCredentials()
+[2025-06-04 05:45:24Z INFO ConfigurationStore] stored True
+[2025-06-04 05:45:24Z INFO CredentialManager] GetCredentialProvider
+[2025-06-04 05:45:24Z INFO CredentialManager] Creating type OAuth
+[2025-06-04 05:45:24Z INFO CredentialManager] Creating credential type: OAuth
+[2025-06-04 05:45:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:45:24Z INFO ConfigurationManager] LoadSettings
+[2025-06-04 05:45:24Z INFO ConfigurationStore] IsConfigured()
+[2025-06-04 05:45:24Z INFO ConfigurationStore] IsConfigured: True
+[2025-06-04 05:45:24Z INFO ConfigurationManager] Is configured: True
+[2025-06-04 05:45:24Z INFO ConfigurationManager] Settings Loaded
+[2025-06-04 05:45:24Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 4501114a-a3c1-4520-9f84-fe4d1916ca40
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: db4d7f23-e080-4b26-9066-62fe6d566c99
+X-TFS-Session: 6b270616-00da-4786-8b90-72c343841bbc
+X-VSS-E2EID: 092475db-7b28-44e3-b49d-e5c26d6b365d
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/gg00/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/gg00/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fgg00%2F_apis%2FFeatureFlags%2FDistributedTask.Agent.EnableNewMaskerAndRegexes%3FcheckFeatureExists%3DFalse&redirect=1&mkt=en-IN&hid=c1aef65c-7fc9-4949-9e78-2f4eb5c73b9d&context=eyJodCI6MiwiaGlkIjoiNzViZGE2NzktMzU3Ni00NTJlLTlmOTAtZGE4OWE2NjljZWYxIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 3B0C2A9EA2C34B8FB6954894D8BED9CF Ref B: MAA01EDGE0708 Ref C: 2025-06-04T05:45:24Z
+Date: Wed, 04 Jun 2025 05:45:23 GMT
+
+[2025-06-04 05:45:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:45:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials_rsaparams
+[2025-06-04 05:45:25Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-06-04 05:45:25Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin/Agent.Worker'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 172 175'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:45:25Z INFO ProcessInvokerWrapper] Process started with process id 10473, waiting for process exit.
+[2025-06-04 05:45:25Z INFO JobDispatcher] Send job request message to worker for job 12f1170f-54f2-53f3-20dd-22fc7dff55f9 (40 KB).
+[2025-06-04 05:45:25Z INFO JobDispatcher] Took 0 ms to send job message to worker
+[2025-06-04 05:45:25Z INFO JobNotification] Entering JobStarted Notification
+[2025-06-04 05:45:25Z INFO JobNotification] Entering StartMonitor
+[2025-06-04 05:46:15Z INFO MessageListener] Sleeping for 10.747 seconds before retrying.
+[2025-06-04 05:46:24Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 04/06/2025 5:56:24 am
+[2025-06-04 05:46:47Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session 'e7b7c3bc-622c-4e4d-8a7e-5dc5dc745245'.
+[2025-06-04 05:47:16Z INFO MessageListener] Sleeping for 7.31 seconds before retrying.
+[2025-06-04 05:47:25Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 04/06/2025 5:57:25 am

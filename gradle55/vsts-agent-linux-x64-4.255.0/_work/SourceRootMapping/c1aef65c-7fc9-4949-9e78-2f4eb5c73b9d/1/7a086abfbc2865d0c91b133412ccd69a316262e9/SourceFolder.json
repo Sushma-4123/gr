@@ -1,0 +1,26 @@
+﻿{
+  "build_artifactstagingdirectory": "1/a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://dev.azure.com/gg00/",
+  "definitionName": "Sushma-4123.gradle00",
+  "repositoryTrackingInfo": [
+    {
+      "identifier": "self",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "https://github.com/Sushma-4123/gradle00",
+      "sourcesDirectory": "1/s/gradle00"
+    }
+  ],
+  "fileFormatVersion": 3,
+  "lastRunOn": "06/04/2025 11:15:35 +05:30",
+  "repositoryType": "GitHub",
+  "lastMaintenanceAttemptedOn": "",
+  "lastMaintenanceCompletedOn": "",
+  "build_sourcesdirectory": "1/s",
+  "common_testresultsdirectory": "1/TestResults",
+  "collectionId": "c1aef65c-7fc9-4949-9e78-2f4eb5c73b9d",
+  "definitionId": "1",
+  "hashKey": "7a086abfbc2865d0c91b133412ccd69a316262e9",
+  "repositoryUrl": "https://github.com/Sushma-4123/gradle00",
+  "system": "build"
+}

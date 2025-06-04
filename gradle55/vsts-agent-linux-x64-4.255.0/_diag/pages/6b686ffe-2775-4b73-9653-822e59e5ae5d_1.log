@@ -1,0 +1,197 @@
+﻿2025-06-04T05:45:31.3740425Z ##[section]Starting: Job
+2025-06-04T05:45:35.2955211Z ##[section]Starting: Initialize job
+2025-06-04T05:45:35.2971185Z Agent name: 'shruthi-VirtualBox'
+2025-06-04T05:45:35.2971522Z Agent machine name: 'shruthi-VirtualBox'
+2025-06-04T05:45:35.2971673Z Current agent version: '4.255.0'
+2025-06-04T05:45:35.5551880Z Agent running as: 'shruthi'
+2025-06-04T05:45:35.5619320Z Prepare build directory.
+2025-06-04T05:45:36.0104978Z Set build variables.
+2025-06-04T05:45:36.0122135Z Download all required tasks.
+2025-06-04T05:45:36.3356882Z Checking job knob settings.
+2025-06-04T05:45:36.3394857Z    Knob: DockerActionRetries = true Source: $(VSTSAGENT_DOCKER_ACTION_RETRIES) 
+2025-06-04T05:45:36.3395980Z    Knob: UseGitLongPaths = true Source: $(USE_GIT_LONG_PATHS) 
+2025-06-04T05:45:36.3397251Z    Knob: EnableIssueSourceValidation = true Source: $(ENABLE_ISSUE_SOURCE_VALIDATION) 
+2025-06-04T05:45:36.3397764Z    Knob: AgentEnablePipelineArtifactLargeChunkSize = true Source: $(AGENT_ENABLE_PIPELINEARTIFACT_LARGE_CHUNK_SIZE) 
+2025-06-04T05:45:36.3399366Z    Knob: ContinueAfterCancelProcessTreeKillAttempt = true Source: $(VSTSAGENT_CONTINUE_AFTER_CANCEL_PROCESSTREEKILL_ATTEMPT) 
+2025-06-04T05:45:36.3399872Z    Knob: ProcessHandlerSecureArguments = false Source: $(AZP_75787_ENABLE_NEW_LOGIC) 
+2025-06-04T05:45:36.3400235Z    Knob: ProcessHandlerSecureArguments = false Source: $(AZP_75787_ENABLE_NEW_LOGIC_LOG) 
+2025-06-04T05:45:36.3400548Z    Knob: ProcessHandlerTelemetry = true Source: $(AZP_75787_ENABLE_COLLECT) 
+2025-06-04T05:45:36.3400898Z    Knob: UseNewNodeHandlerTelemetry = True Source: $(DistributedTask.Agent.USENEWNODEHANDLERTELEMETRY) 
+2025-06-04T05:45:36.3401232Z    Knob: ProcessHandlerEnableNewLogic = true Source: $(AZP_75787_ENABLE_NEW_PH_LOGIC) 
+2025-06-04T05:45:36.3435243Z    Knob: EnableResourceMonitorDebugOutput = true Source: $(AZP_ENABLE_RESOURCE_MONITOR_DEBUG_OUTPUT) 
+2025-06-04T05:45:36.3435914Z    Knob: EnableResourceUtilizationWarnings = true Source: $(AZP_ENABLE_RESOURCE_UTILIZATION_WARNINGS) 
+2025-06-04T05:45:36.3436544Z    Knob: IgnoreVSTSTaskLib = true Source: $(AZP_AGENT_IGNORE_VSTSTASKLIB) 
+2025-06-04T05:45:36.3436848Z    Knob: FailJobWhenAgentDies = true Source: $(FAIL_JOB_WHEN_AGENT_DIES) 
+2025-06-04T05:45:36.3437252Z    Knob: CheckForTaskDeprecation = true Source: $(AZP_AGENT_CHECK_FOR_TASK_DEPRECATION) 
+2025-06-04T05:45:36.3437703Z    Knob: CheckIfTaskNodeRunnerIsDeprecated246 = False Source: $(DistributedTask.Agent.CheckIfTaskNodeRunnerIsDeprecated246) 
+2025-06-04T05:45:36.3438281Z    Knob: LogTaskNameInUserAgent = true Source: $(AZP_AGENT_LOG_TASKNAME_IN_USERAGENT) 
+2025-06-04T05:45:36.3438610Z    Knob: UseFetchFilterInCheckoutTask = true Source: $(AGENT_USE_FETCH_FILTER_IN_CHECKOUT_TASK) 
+2025-06-04T05:45:36.3439010Z    Knob: Rosetta2Warning = true Source: $(ROSETTA2_WARNING) 
+2025-06-04T05:45:36.3439926Z    Knob: UseSparseCheckoutInCheckoutTask = true Source: $(AGENT_USE_SPARSE_CHECKOUT_IN_CHECKOUT_TASK) 
+2025-06-04T05:45:36.3440237Z Finished checking job knob settings.
+2025-06-04T05:45:36.3763813Z Start tracking orphan processes.
+2025-06-04T05:45:37.5352351Z ##[section]Finishing: Initialize job
+2025-06-04T05:45:37.5502972Z ##[section]Async Command Start: DetectDockerContainer
+2025-06-04T05:45:37.5503543Z ##[section]Async Command End: DetectDockerContainer
+2025-06-04T05:45:37.5504882Z ##[section]Async Command Start: DetectDockerContainer
+2025-06-04T05:45:37.5505544Z ##[section]Async Command End: DetectDockerContainer
+2025-06-04T05:45:37.5725562Z ##[section]Starting: Checkout Sushma-4123/gradle00@master to s
+2025-06-04T05:45:37.5862195Z ==============================================================================
+2025-06-04T05:45:37.5862892Z Task         : Get sources
+2025-06-04T05:45:37.5863275Z Description  : Get sources from a repository. Supports Git, TfsVC, and SVN repositories.
+2025-06-04T05:45:37.5863399Z Version      : 1.0.0
+2025-06-04T05:45:37.5863636Z Author       : Microsoft
+2025-06-04T05:45:37.5866020Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkId=798199)
+2025-06-04T05:45:37.5866449Z ==============================================================================
+2025-06-04T05:45:39.7975261Z Syncing repository: Sushma-4123/gradle00 (GitHub)
+2025-06-04T05:45:40.5882068Z ##[command]git version
+2025-06-04T05:45:41.0666897Z git version 2.34.1
+2025-06-04T05:45:41.0818206Z ##[command]git config --get remote.origin.url
+2025-06-04T05:45:41.2482454Z ##[command]git clean -ffdx
+2025-06-04T05:45:41.3869367Z Removing .gradle/
+2025-06-04T05:45:41.3904712Z ##[command]git reset --hard HEAD
+2025-06-04T05:45:41.6970609Z HEAD is now at 578ef19 Set up CI with Azure Pipelines
+2025-06-04T05:45:41.7034987Z ##[command]git sparse-checkout disable
+2025-06-04T05:45:41.7187483Z ##[command]git config gc.auto 0
+2025-06-04T05:45:41.7290262Z ##[command]git config core.longpaths true
+2025-06-04T05:45:41.7330478Z ##[command]git config --get-all http.https://github.com/Sushma-4123/gradle00.extraheader
+2025-06-04T05:45:41.7480501Z ##[command]git config --get-all http.extraheader
+2025-06-04T05:45:41.7603568Z ##[command]git config --get-regexp .*extraheader
+2025-06-04T05:45:41.7806317Z ##[command]git config --get-all http.proxy
+2025-06-04T05:45:41.7883191Z ##[command]git config http.version HTTP/1.1
+2025-06-04T05:45:41.8014071Z ##[command]git --config-env=http.extraheader=env_var_http.extraheader fetch --force --tags --prune --prune-tags --progress --no-recurse-submodules origin --depth=1  +920d6156e1077a87af832cb7f230b704ff1ed291:refs/remotes/origin/920d6156e1077a87af832cb7f230b704ff1ed291
+2025-06-04T05:45:45.8527609Z remote: Enumerating objects: 76, done.        
+2025-06-04T05:45:45.8545155Z remote: Counting objects:   1% (1/76)        
+2025-06-04T05:45:45.8572424Z remote: Counting objects:   2% (2/76)        
+2025-06-04T05:45:45.8572871Z remote: Counting objects:   3% (3/76)        
+2025-06-04T05:45:45.8573055Z remote: Counting objects:   5% (4/76)        
+2025-06-04T05:45:45.8573232Z remote: Counting objects:   6% (5/76)        
+2025-06-04T05:45:45.8573442Z remote: Counting objects:   7% (6/76)        
+2025-06-04T05:45:45.8573649Z remote: Counting objects:   9% (7/76)        
+2025-06-04T05:45:45.8573816Z remote: Counting objects:  10% (8/76)        
+2025-06-04T05:45:45.8573983Z remote: Counting objects:  11% (9/76)        
+2025-06-04T05:45:45.8574163Z remote: Counting objects:  13% (10/76)        
+2025-06-04T05:45:45.8574588Z remote: Counting objects:  14% (11/76)        
+2025-06-04T05:45:45.8574839Z remote: Counting objects:  15% (12/76)        
+2025-06-04T05:45:45.8575055Z remote: Counting objects:  17% (13/76)        
+2025-06-04T05:45:45.8575222Z remote: Counting objects:  18% (14/76)        
+2025-06-04T05:45:45.8575394Z remote: Counting objects:  19% (15/76)        
+2025-06-04T05:45:45.8575564Z remote: Counting objects:  21% (16/76)        
+2025-06-04T05:45:45.8575734Z remote: Counting objects:  22% (17/76)        
+2025-06-04T05:45:45.8575900Z remote: Counting objects:  23% (18/76)        
+2025-06-04T05:45:45.8576068Z remote: Counting objects:  25% (19/76)        
+2025-06-04T05:45:45.8576238Z remote: Counting objects:  26% (20/76)        
+2025-06-04T05:45:45.8576412Z remote: Counting objects:  27% (21/76)        
+2025-06-04T05:45:45.8576580Z remote: Counting objects:  28% (22/76)        
+2025-06-04T05:45:45.8576748Z remote: Counting objects:  30% (23/76)        
+2025-06-04T05:45:45.8576918Z remote: Counting objects:  31% (24/76)        
+2025-06-04T05:45:45.8577087Z remote: Counting objects:  32% (25/76)        
+2025-06-04T05:45:45.8578014Z remote: Counting objects:  34% (26/76)        
+2025-06-04T05:45:45.8578212Z remote: Counting objects:  35% (27/76)        
+2025-06-04T05:45:45.8578381Z remote: Counting objects:  36% (28/76)        
+2025-06-04T05:45:45.8578549Z remote: Counting objects:  38% (29/76)        
+2025-06-04T05:45:45.8578719Z remote: Counting objects:  39% (30/76)        
+2025-06-04T05:45:45.8578888Z remote: Counting objects:  40% (31/76)        
+2025-06-04T05:45:45.8579056Z remote: Counting objects:  42% (32/76)        
+2025-06-04T05:45:45.8579250Z remote: Counting objects:  43% (33/76)        
+2025-06-04T05:45:45.8580020Z remote: Counting objects:  44% (34/76)        
+2025-06-04T05:45:45.8580195Z remote: Counting objects:  46% (35/76)        
+2025-06-04T05:45:45.8580365Z remote: Counting objects:  47% (36/76)        
+2025-06-04T05:45:45.8580532Z remote: Counting objects:  48% (37/76)        
+2025-06-04T05:45:45.8580701Z remote: Counting objects:  50% (38/76)        
+2025-06-04T05:45:45.8580877Z remote: Counting objects:  51% (39/76)        
+2025-06-04T05:45:45.8581046Z remote: Counting objects:  52% (40/76)        
+2025-06-04T05:45:45.8581214Z remote: Counting objects:  53% (41/76)        
+2025-06-04T05:45:45.8581381Z remote: Counting objects:  55% (42/76)        
+2025-06-04T05:45:45.8581548Z remote: Counting objects:  56% (43/76)        
+2025-06-04T05:45:45.8581715Z remote: Counting objects:  57% (44/76)        
+2025-06-04T05:45:45.8581883Z remote: Counting objects:  59% (45/76)        
+2025-06-04T05:45:45.8582051Z remote: Counting objects:  60% (46/76)        
+2025-06-04T05:45:45.8582218Z remote: Counting objects:  61% (47/76)        
+2025-06-04T05:45:45.8582388Z remote: Counting objects:  63% (48/76)        
+2025-06-04T05:45:45.8582556Z remote: Counting objects:  64% (49/76)        
+2025-06-04T05:45:45.8582724Z remote: Counting objects:  65% (50/76)        
+2025-06-04T05:45:45.8582889Z remote: Counting objects:  67% (51/76)        
+2025-06-04T05:45:45.8583056Z remote: Counting objects:  68% (52/76)        
+2025-06-04T05:45:45.8583224Z remote: Counting objects:  69% (53/76)        
+2025-06-04T05:45:45.8583391Z remote: Counting objects:  71% (54/76)        
+2025-06-04T05:45:45.8583558Z remote: Counting objects:  72% (55/76)        
+2025-06-04T05:45:45.8583954Z remote: Counting objects:  73% (56/76)        
+2025-06-04T05:45:45.8584122Z remote: Counting objects:  75% (57/76)        
+2025-06-04T05:45:45.8584287Z remote: Counting objects:  76% (58/76)        
+2025-06-04T05:45:45.8584453Z remote: Counting objects:  77% (59/76)        
+2025-06-04T05:45:45.8584618Z remote: Counting objects:  78% (60/76)        
+2025-06-04T05:45:45.8584786Z remote: Counting objects:  80% (61/76)        
+2025-06-04T05:45:45.8584954Z remote: Counting objects:  81% (62/76)        
+2025-06-04T05:45:45.8585119Z remote: Counting objects:  82% (63/76)        
+2025-06-04T05:45:45.8585287Z remote: Counting objects:  84% (64/76)        
+2025-06-04T05:45:45.8585533Z remote: Counting objects:  85% (65/76)        
+2025-06-04T05:45:45.8585826Z remote: Counting objects:  86% (66/76)        
+2025-06-04T05:45:45.8586021Z remote: Counting objects:  88% (67/76)        
+2025-06-04T05:45:45.8586247Z remote: Counting objects:  89% (68/76)        
+2025-06-04T05:45:45.8586415Z remote: Counting objects:  90% (69/76)        
+2025-06-04T05:45:45.8586581Z remote: Counting objects:  92% (70/76)        
+2025-06-04T05:45:45.8586749Z remote: Counting objects:  93% (71/76)        
+2025-06-04T05:45:45.8586918Z remote: Counting objects:  94% (72/76)        
+2025-06-04T05:45:45.8587085Z remote: Counting objects:  96% (73/76)        
+2025-06-04T05:45:45.8587252Z remote: Counting objects:  97% (74/76)        
+2025-06-04T05:45:45.8587429Z remote: Counting objects:  98% (75/76)        
+2025-06-04T05:45:45.8587599Z remote: Counting objects: 100% (76/76)        
+2025-06-04T05:45:45.8587773Z remote: Counting objects: 100% (76/76), done.        
+2025-06-04T05:45:45.8587951Z remote: Compressing objects:   2% (1/42)        
+2025-06-04T05:45:45.8588199Z remote: Compressing objects:   4% (2/42)        
+2025-06-04T05:45:45.8588378Z remote: Compressing objects:   7% (3/42)        
+2025-06-04T05:45:45.8588547Z remote: Compressing objects:   9% (4/42)        
+2025-06-04T05:45:45.8588714Z remote: Compressing objects:  11% (5/42)        
+2025-06-04T05:45:45.8588882Z remote: Compressing objects:  14% (6/42)        
+2025-06-04T05:45:45.8589050Z remote: Compressing objects:  16% (7/42)        
+2025-06-04T05:45:45.8589359Z remote: Compressing objects:  19% (8/42)        
+2025-06-04T05:45:45.8589591Z remote: Compressing objects:  21% (9/42)        
+2025-06-04T05:45:45.8589765Z remote: Compressing objects:  23% (10/42)        
+2025-06-04T05:45:45.8589998Z remote: Compressing objects:  26% (11/42)        
+2025-06-04T05:45:45.8590170Z remote: Compressing objects:  28% (12/42)        
+2025-06-04T05:45:45.8590341Z remote: Compressing objects:  30% (13/42)        
+2025-06-04T05:45:45.8590514Z remote: Compressing objects:  33% (14/42)        
+2025-06-04T05:45:45.8590688Z remote: Compressing objects:  35% (15/42)        
+2025-06-04T05:45:45.8590858Z remote: Compressing objects:  38% (16/42)        
+2025-06-04T05:45:45.8591029Z remote: Compressing objects:  40% (17/42)        
+2025-06-04T05:45:45.8591202Z remote: Compressing objects:  42% (18/42)        
+2025-06-04T05:45:45.8591544Z remote: Compressing objects:  45% (19/42)        
+2025-06-04T05:45:45.8591935Z remote: Compressing objects:  47% (20/42)        
+2025-06-04T05:45:45.8592236Z remote: Compressing objects:  50% (21/42)        
+2025-06-04T05:45:45.8592483Z remote: Compressing objects:  52% (22/42)        
+2025-06-04T05:45:45.8592657Z remote: Compressing objects:  54% (23/42)        
+2025-06-04T05:45:45.8592836Z remote: Compressing objects:  57% (24/42)        
+2025-06-04T05:45:45.8593007Z remote: Compressing objects:  59% (25/42)        
+2025-06-04T05:45:45.8593177Z remote: Compressing objects:  61% (26/42)        
+2025-06-04T05:45:45.8593346Z remote: Compressing objects:  64% (27/42)        
+2025-06-04T05:45:45.8593518Z remote: Compressing objects:  66% (28/42)        
+2025-06-04T05:45:45.8593727Z remote: Compressing objects:  69% (29/42)        
+2025-06-04T05:45:45.8594052Z remote: Compressing objects:  71% (30/42)        
+2025-06-04T05:45:45.8594262Z remote: Compressing objects:  73% (31/42)        
+2025-06-04T05:45:45.8594634Z remote: Compressing objects:  76% (32/42)        
+2025-06-04T05:45:45.8595055Z remote: Compressing objects:  78% (33/42)        
+2025-06-04T05:45:45.8602788Z remote: Compressing objects:  80% (34/42)        
+2025-06-04T05:45:45.8603004Z remote: Compressing objects:  83% (35/42)        
+2025-06-04T05:45:45.8603176Z remote: Compressing objects:  85% (36/42)        
+2025-06-04T05:45:45.8603367Z remote: Compressing objects:  88% (37/42)        
+2025-06-04T05:45:45.8603538Z remote: Compressing objects:  90% (38/42)        
+2025-06-04T05:45:45.8603714Z remote: Compressing objects:  92% (39/42)        
+2025-06-04T05:45:45.8603889Z remote: Compressing objects:  95% (40/42)        
+2025-06-04T05:45:45.8604064Z remote: Compressing objects:  97% (41/42)        
+2025-06-04T05:45:45.8604237Z remote: Compressing objects: 100% (42/42)        
+2025-06-04T05:45:45.8604417Z remote: Compressing objects: 100% (42/42), done.        
+2025-06-04T05:45:52.2134731Z remote: Total 74 (delta 8), reused 71 (delta 7), pack-reused 0 (from 0)        
+2025-06-04T05:45:52.5831528Z From https://github.com/Sushma-4123/gradle00
+2025-06-04T05:45:52.5843393Z  * [new ref]         920d6156e1077a87af832cb7f230b704ff1ed291 -> origin/920d6156e1077a87af832cb7f230b704ff1ed291
+2025-06-04T05:45:52.7279920Z ##[command]git --config-env=http.extraheader=env_var_http.extraheader fetch --force --tags --prune --prune-tags --progress --no-recurse-submodules origin --depth=1  +920d6156e1077a87af832cb7f230b704ff1ed291
+2025-06-04T05:45:54.3825011Z remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)        
+2025-06-04T05:45:54.4073983Z From https://github.com/Sushma-4123/gradle00
+2025-06-04T05:45:54.4157320Z  * branch            920d6156e1077a87af832cb7f230b704ff1ed291 -> FETCH_HEAD
+2025-06-04T05:45:54.4872185Z ##[command]git checkout --progress --force refs/remotes/origin/920d6156e1077a87af832cb7f230b704ff1ed291
+2025-06-04T05:45:54.6047210Z Previous HEAD position was 578ef19 Set up CI with Azure Pipelines
+2025-06-04T05:45:54.6347302Z HEAD is now at 920d615 azure-pipelines.yml
+2025-06-04T05:45:54.7813082Z ##[section]Finishing: Checkout Sushma-4123/gradle00@master to s
+2025-06-04T05:45:54.7838171Z ##[section]Starting: Run a one-line script
+2025-06-04T05:45:54.7844560Z ==============================================================================
+2

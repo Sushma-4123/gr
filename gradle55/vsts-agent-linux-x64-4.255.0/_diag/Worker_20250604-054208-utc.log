@@ -1,0 +1,1572 @@
+[2025-06-04 05:42:08Z INFO Program] Version: 4.255.0
+[2025-06-04 05:42:08Z INFO Program] Commit: 470b366b07474086350f1b664c1cd1972e9e637e
+[2025-06-04 05:42:08Z INFO Program] Culture: en-IN
+[2025-06-04 05:42:08Z INFO Program] UI Culture: en-IN
+[2025-06-04 05:42:08Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:08Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:08Z INFO HostContext] Well known config file 'Proxy': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.proxy'
+[2025-06-04 05:42:08Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-06-04 05:42:08Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:08Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:08Z INFO HostContext] Well known config file 'Certificates': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.certificates'
+[2025-06-04 05:42:08Z INFO AgentCertificateManager] No certificate setting found.
+[2025-06-04 05:42:08Z INFO Worker] Waiting to receive the job message from the channel.
+[2025-06-04 05:42:08Z INFO Worker] Message received.
+[2025-06-04 05:42:09Z INFO Worker] Deactivating vso commands in job message variables.
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-06-04 05:42:09Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-06-04 05:42:09Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-06-04 05:42:09Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-06-04 05:42:09Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-06-04 05:42:09Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-06-04 05:42:09Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-06-04 05:42:09Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-06-04 05:42:09Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_IdSignature
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_RepositoryIds
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2025-06-04 05:42:09Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2025-06-04 05:42:09Z INFO Worker] Job message:
+ {
+  "mask": [
+    {
+      "type": "regex",
+      "value": ***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "inputs": {
+        "repository": "self",
+        "fetchDepth": "1"
+      },
+      "type": "task",
+      "reference": {
+        "id": "6d15af64-176c-496d-b583-fd2ae21d4df4",
+        "name": "Checkout",
+        "version": "1.0.0",
+        "buildConfig": "Default",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": false,
+      "id": "63e8042a-f367-5aec-692c-fcc654be55e4",
+      "name": "__system_1",
+      "displayName": "Checkout"
+    },
+    {
+      "inputs": {
+        "script": "echo My Gradle Application"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.250.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "f8ed7bd8-2a7f-56f6-9385-7fc29a8b5b7b",
+      "name": "CmdLine1",
+      "displayName": "Run a one-line script"
+    },
+    {
+      "inputs": {
+        "script": "gradle build"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.250.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "5caf77c8-9b10-50ef-b5c7-ca89c63e1c86",
+      "name": "CmdLine2",
+      "displayName": "Building the gradle application"
+    },
+    {
+      "inputs": {
+        "script": "gradle run"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.250.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "bd05475d-acb5-5619-3ccb-c46842dbc997",
+      "name": "CmdLine3",
+      "displayName": "Running gradle application"
+    }
+  ],
+  "variables": {
+    "resources.triggeringCategory": {
+      "value": ""
+    },
+    "resources.triggeringAlias": {
+      "value": ""
+    },
+    "system": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.hosttype": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.servertype": {
+      "value": "Hosted",
+      "isReadOnly": true
+    },
+    "system.culture": {
+      "value": "en-US",
+      "isReadOnly": true
+    },
+    "system.collectionId": {
+      "value": "c1aef65c-7fc9-4949-9e78-2f4eb5c73b9d",
+      "isReadOnly": true
+    },
+    "system.collectionUri": {
+      "value": "https://dev.azure.com/gg00/",
+      "isReadOnly": true
+    },
+    "system.teamFoundationCollectionUri": {
+      "value": "https://dev.azure.com/gg00/",
+      "isReadOnly": true
+    },
+    "system.taskDefinitionsUri": {
+      "value": "https://dev.azure.com/gg00/",
+      "isReadOnly": true
+    },
+    "system.pipelineStartTime": {
+      "value": "2025-06-04 05:41:54+00:00",
+      "isReadOnly": true
+    },
+    "system.teamProject": {
+      "value": "gra00",
+      "isReadOnly": true
+    },
+    "system.teamProjectId": {
+      "value": "273f59d0-0472-4219-bb15-7c2001061c5f",
+      "isReadOnly": true
+    },
+    "system.definitionId": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "build.definitionName": {
+      "value": "Sushma-4123.gradle00",
+      "isReadOnly": true
+    },
+    "build.repository.id": {
+      "value": "Sushma-4123/gradle00",
+      "isReadOnly": true
+    },
+    "build.repository.name": {
+      "value": "Sushma-4123/gradle00",
+      "isReadOnly": true
+    },
+    "build.repository.uri": {
+      "value": "https://github.com/Sushma-4123/gradle00",
+      "isReadOnly": true
+    },
+    "build.definitionVersion": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "USE_MSDEPLOY_TOKEN_AUTH": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.AgentEnablePipelineArtifactLargeChunkSize": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CheckIfTaskNodeRunnerIsDeprecated246": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CleanupPsModulesInPowershell": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ContinueAfterCancelProcessTreeKillAttempt": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.DockerActionRetries": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableIssueSourceValidation": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceMonitorDebugOutput": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceUtilizationWarnings": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedBuildTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailJobWhenAgentDies": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FixPossibleGitOutOfMemoryProblem": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ForceUpdateToLatest2Version": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.IgnoreVSTSTaskLib": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogTaskNameInUserAgent": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogToBlobstorageService": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.MountWorkspace": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ReadOnlyVariables": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.Rosetta2Warning": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UploadBuildArtifactsToBlob": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UploadTimelineAttachmentsToBlob": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseDockerComposeV2CompatibleMode": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseFetchFilterInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseGitLongPaths": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseInteropToFindParentProcess": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseLatestGitVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseMsalLibrary": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.USENEWNODEHANDLERTELEMETRY": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseSparseCheckoutInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseWorkspaceId": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.CopyFilesOverSSHV0UseQueue": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.ModifyNumberOfRetriesInRobocopy": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.MSBuildHelpersEnableTelemetry": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.RetireAzureRMPowerShellModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.SkipHelmManifestNullParts": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.useJacocoTemplateV2forSingleModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseLatestOpensslVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "build.definitionFolderPath": {
+      "value": "\\",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_CONTINUE_AFTER_CANCEL_PROCESSTREEKILL_ATTEMPT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_DOCKER_ACTION_RETRIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_MSAL": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_COLLECT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_PH_LOGIC": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_CHECK_FOR_TASK_DEPRECATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_MOUNT_WORKSPACE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_IGNORE_VSTSTASKLIB": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_PS_ENABLE_INVOKE_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_LOG_TASKNAME_IN_USERAGENT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_FETCH_FILTER_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_SPARSE_CHECKOUT_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_OPENSSL_LATEST_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "MODIFY_NUMBER_OF_RETRIES_IN_ROBOCOPY": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC_LOG": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AGENT_ENABLE_PIPELINEARTIFACT_LARGE_CHUNK_SIZE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_JOB_WHEN_AGENT_DIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_LATEST_GIT_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_GIT_LONG_PATHS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ENABLE_ISSUE_SOURCE_VALIDATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "RETIRE_AZURERM_POWERSHELL_MODULE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_MONITOR_DEBUG_OUTPUT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_UTILIZATION_WARNINGS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_BUILD_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_USE_INTEROP_TO_FIND_PARENT_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ROSETTA2_WARNING": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "COPYFILESOVERSSHV0_USE_QUEUE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_FIXED_AZ_CONFIG_INIT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_AKS_CREDENTIAL_API": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "MSBUILDHELPERS_ENABLE_TELEMETRY": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.queuedBy": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.queuedById": {
+      "value": "f0288859-a139-6fb4-806b-be0b22a99f53",
+      "isReadOnly": true
+    },
+    "build.requestedFor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.requestedForId": {
+      "value": "f0288859-a139-6fb4-806b-be0b22a99f53",
+      "isReadOnly": true
+    },
+    "build.requestedForEmail": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersionMessage": {
+      "value": "Set up CI with Azure Pipelines",
+      "isReadOnly": true
+    },
+    "build.sourceVersion": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranch": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranchName": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.reason": {
+      "value": "IndividualCI",
+      "isReadOnly": true
+    },
+    "system.pullRequest.isFork": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.jobParallelismTag": {
+      "value": "Private",
+      "isReadOnly": true
+    },
+    "system.enableAccessToken": {
+      "value": "SecretVariable",
+      "isReadOnly": true
+    },
+    "System.CanIssueOidcTokenForWorkloadIdentityFederation": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "MSDEPLOY_HTTP_USER_AGENT": {
+      "value": "VSTS_c1aef65c-7fc9-4949-9e78-2f4eb5c73b9d_build_1_0",
+      "isReadOnly": true
+    },
+    "AZURE_HTTP_USER_AGENT": {
+      "value": "VSTS_c1aef65c-7fc9-4949-9e78-2f4eb5c73b9d_build_1_0",
+      "isReadOnly": true
+    },
+    "build.buildId": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "build.buildUri": {
+      "value": "vstfs:///Build/Build/1",
+      "isReadOnly": true
+    },
+    "build.buildNumber": {
+      "value": "20250604.1",
+      "isReadOnly": true
+    },
+    "build.containerId": {
+      "value": "72281680",
+      "isReadOnly": true
+    },
+    "system.isScheduled": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.definitionName": {
+      "value": "Sushma-4123.gradle00",
+      "isReadOnly": true
+    },
+    "system.planId": {
+      "value": "baff3bc1-3d3a-4d5c-8bdf-efe1c019484f",
+      "isReadOnly": true
+    },
+    "system.timelineId": {
+      "value": "baff3bc1-3d3a-4d5c-8bdf-efe1c019484f",
+      "isReadOnly": true
+    },
+    "system.stageDisplayName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.stageId": {
+      "value": "96ac2280-8cb4-5df5-99de-dd2da759617d",
+      "isReadOnly": true
+    },
+    "system.stageName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.stageAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "build.stageRequestedById": {
+      "value": "00000002-0000-8888-8000-000000000000",
+      "isReadOnly": true
+    },
+    "build.stageRequestedBy": {
+      "value": "Microsoft.VisualStudio.Services.TFS",
+      "isReadOnly": true
+    },
+    "system.phaseDisplayName": {
+      "value": "Job",
+      "isReadOnly": true
+    },
+    "system.phaseId": {
+      "value": "3a3a2a60-14c7-570b-14a4-fa42ad92f52a",
+      "isReadOnly": true
+    },
+    "system.phaseName": {
+      "value": "Job",
+      "isReadOnly": true
+    },
+    "system.phaseAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobIdentifier": {
+      "value": "Job.__default",
+      "isReadOnly": true
+    },
+    "system.jobAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.JobPositionInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobDisplayName": {
+      "value": "Job",
+      "isReadOnly": true
+    },
+    "system.jobId": {
+      "value": "12f1170f-54f2-53f3-20dd-22fc7dff55f9",
+      "isReadOnly": true
+    },
+    "system.jobName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.jobTimeout": {
+      "value": "60",
+      "isReadOnly": true
+    },
+    "system.accessToken": {
+      "value": ***
+      "isSecret": true
+    },
+    "agent.retainDefaultEncoding": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "agent.LogToBlobstorageService": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.UploadBuildArtifactsToBlob": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.UploadTimelineAttachmentsToBlob": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.readOnlyVariables": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.useWorkspaceId": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "system.postLinesSpeed": {
+      "value": "500",
+      "isReadOnly": true
+    },
+    "system.preferRedirectGetContainerItem": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.taskRestrictionsEnforcementMode": {
+      "value": "Enabled",
+      "isReadOnly": true
+    },
+    "System.OidcRequestUri": {
+      "value": "https://dev.azure.com/gg00/273f59d0-0472-4219-bb15-7c2001061c5f/_apis/distributedtask/hubs/build/plans/baff3bc1-3d3a-4d5c-8bdf-efe1c019484f/jobs/12f1170f-54f2-53f3-20dd-22fc7dff55f9/oidctoken",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestResultLogPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestFilePublisherPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.sourceVersionAuthor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "273f59d0-0472-4219-bb15-7c2001061c5f",
+    "planType": "Build",
+    "version": 18,
+    "planId": "baff3bc1-3d3a-4d5c-8bdf-efe1c019484f",
+    "planGroup": "Build:273f59d0-0472-4219-bb15-7c2001061c5f:1",
+    "artifactUri": "vstfs:///Build/Build/1",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/gg00/273f59d0-0472-4219-bb15-7c2001061c5f/_build/definition?definitionId=1"
+        },
+        "self": {
+          "href": "https://dev.azure.com/gg00/273f59d0-0472-4219-bb15-7c2001061c5f/_apis/build/Definitions/1"
+        }
+      },
+      "id": 1,
+      "name": "Sushma-4123.gradle00"
+    },
+    "owner": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/gg00/273f59d0-0472-4219-bb15-7c2001061c5f/_build/results?buildId=1"
+        },
+        "self": {
+          "href": "https://dev.azure.com/gg00/273f59d0-0472-4219-bb15-7c2001061c5f/_apis/build/Builds/1"
+        }
+      },
+      "id": 1,
+      "name": "20250604.1"
+    }
+  },
+  "timeline": {
+    "id": "baff3bc1-3d3a-4d5c-8bdf-efe1c019484f",
+    "changeId": 8,
+    "location": null
+  },
+  "jobId": "12f1170f-54f2-53f3-20dd-22fc7dff55f9",
+  "jobDisplayName": "Job",
+  "jobName": "__default",
+  "jobContainer": null,
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "pipelinesSourceProvider": "github",
+          "AvatarUrl": "https://avatars.githubusercontent.com/u/192586823?v=4"
+        },
+        "id": "5a9ef3a5-d472-49c2-bd39-d461c0e5525c",
+        "name": "Sushma-4123",
+        "type": "GitHub",
+        "owner": "Library",
+        "url": "https://github.com",
+        "createdBy": {
+          "displayName": "nsushma416",
+          "url": "https://spsprodcin1.vssps.visualstudio.com/A75bda679-3576-452e-9f90-da89a669cef1/_apis/Identities/f0288859-a139-6fb4-806b-be0b22a99f53",
+          "_links": {
+            "avatar": {
+              "href": "https://dev.azure.com/gg00/_apis/GraphProfile/MemberAvatars/msa.ZjAyODg4NTktYTEzOS03ZmI0LTgwNmItYmUwYjIyYTk5ZjUz"
+            }
+          },
+          "id": "f0288859-a139-6fb4-806b-be0b22a99f53",
+          "uniqueName": "nsushma416@gmail.com",
+          "imageUrl": "https://dev.azure.com/gg00/_apis/GraphProfile/MemberAvatars/msa.ZjAyODg4NTktYTEzOS03ZmI0LTgwNmItYmUwYjIyYTk5ZjUz",
+          "descriptor": "msa.ZjAyODg4NTktYTEzOS03ZmI0LTgwNmItYmUwYjIyYTk5ZjUz"
+        },
+        "description": "",
+        "authorization": {
+          "parameters": {
+            "IdToken": "69608958",
+            "IdSignature": "***
+            "RepositoryIds": "***",
+            "AccessToken": ***
+          },
+          "scheme": "Token"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      },
+      {
+        "data": {
+          "ServerId": "c1aef65c-7fc9-4949-9e78-2f4eb5c73b9d",
+          "ServerName": "gg00"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://dev.azure.com/gg00/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      }
+    ],
+    "repositories": [
+      {
+        "properties": {
+          "id": "Sushma-4123/gradle00",
+          "type": "GitHub",
+          "version": "578ef19251193a95b14809d17512f487db943499",
+          "name": "Sushma-4123/gradle00",
+          "ref": "refs/heads/main",
+          "defaultBranch": "refs/heads/main",
+          "externalId": "***",
+          "project": "273f59d0-0472-4219-bb15-7c2001061c5f",
+          "url": "https://github.com:443/Sushma-4123/gradle00",
+          "versionInfo": {
+            "author": "[PII]"
+          },
+          "checkoutOptions": {
+            "fetchDepth": "1"
+          }
+        },
+        "alias": "self",
+        "endpoint": {
+          "id": "5a9ef3a5-d472-49c2-bd39-d461c0e5525c"
+        }
+      }
+    ]
+  },
+  "workspace": {}
+}
+[2025-06-04 05:42:09Z INFO JobRunner] Job ID 12f1170f-54f2-53f3-20dd-22fc7dff55f9
+[2025-06-04 05:42:09Z INFO JobRunner] Creating job server with URL: https://dev.azure.com/gg00/
+[2025-06-04 05:42:10Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:42:10Z INFO Worker] Listening for cancel message from the channel.
+[2025-06-04 05:42:10Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2025-06-04 05:42:13Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:42:13Z INFO JobServerQueue] Start process web console line queue.
+[2025-06-04 05:42:13Z INFO JobServerQueue] Start process file upload queue.
+[2025-06-04 05:42:13Z INFO JobServerQueue] Start process timeline update queue.
+[2025-06-04 05:42:13Z INFO ConfigurationStore] currentAssemblyLocation: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin/Agent.Worker.dll
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO ConfigurationStore] binPath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO ConfigurationStore] RootFolder: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known config file 'Agent': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.agent'
+[2025-06-04 05:42:13Z INFO ConfigurationStore] ConfigFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.agent
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known config file 'Credentials': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials'
+[2025-06-04 05:42:13Z INFO ConfigurationStore] CredFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.credentials
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known config file 'Service': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.service'
+[2025-06-04 05:42:13Z INFO ConfigurationStore] ServiceConfigFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.service
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known config file 'Autologon': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.autologon'
+[2025-06-04 05:42:13Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.autologon
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known config file 'Options': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.options'
+[2025-06-04 05:42:13Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.options
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known config file 'SetupInfo': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.setup_info'
+[2025-06-04 05:42:13Z INFO ConfigurationStore] SetupInfoFilePath: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/.setup_info
+[2025-06-04 05:42:13Z INFO ConfigurationStore] Read setting file: 191 chars
+[2025-06-04 05:42:13Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-06-04 05:42:13Z INFO ExecutionContext] WorkspaceIdentifier '7a086abfbc2865d0c91b133412ccd69a316262e9' created for repos Microsoft.VisualStudio.Services.Agent.Worker.Build.RepositoryTrackingInfo
+[2025-06-04 05:42:13Z INFO HostContext] Removing short secrets from masking dictionary
+[2025-06-04 05:42:13Z INFO JobRunner] Starting the job execution context.
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:13Z INFO JobRunner] Validating directory permissions for: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Tools': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tool'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:13Z INFO HostContext] Well known directory 'Temp': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_temp'
+[2025-06-04 05:42:13Z INFO JobRunner] Creating task server with https://dev.azure.com/gg00/
+[2025-06-04 05:42:13Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:42:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2025-06-04 05:42:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:42:16Z INFO JobRunner] Getting job extension.
+[2025-06-04 05:42:16Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-06-04 05:42:16Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildJobExtension, Agent.Worker
+[2025-06-04 05:42:16Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseJobExtension, Agent.Worker
+[2025-06-04 05:42:16Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.DeploymentJobExtension, Agent.Worker
+[2025-06-04 05:42:16Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Maintenance.MaintenanceJobExtension, Agent.Worker
+[2025-06-04 05:42:16Z INFO JobRunner] Initialize job. Getting all job steps.
+[2025-06-04 05:42:16Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-06-04 05:42:16Z INFO BuildJobExtension] Image version for job id 12f1170f-54f2-53f3-20dd-22fc7dff55f9 is not set
+[2025-06-04 05:42:17Z INFO BuildJobExtension] Run initial step from extension BuildJobExtension.
+[2025-06-04 05:42:17Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-06-04 05:42:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ExternalGitSourceProvider, Agent.Worker
+[2025-06-04 05:42:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubSourceProvider, Agent.Worker
+[2025-06-04 05:42:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubEnterpriseSourceProvider, Agent.Worker
+[2025-06-04 05:42:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BitbucketSourceProvider, Agent.Worker
+[2025-06-04 05:42:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.SvnSourceProvider, Agent.Worker
+[2025-06-04 05:42:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsGitSourceProvider, Agent.Worker
+[2025-06-04 05:42:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsVCSourceProvider, Agent.Worker
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO BuildDirectoryManager] Creating build directory.
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO BuildDirectoryManager] Checking if artifacts directory exists: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/a'
+[2025-06-04 05:42:17Z INFO BuildDirectoryManager] Creating artifacts directory.
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO BuildDirectoryManager] Checking if test results directory exists: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/TestResults'
+[2025-06-04 05:42:17Z INFO BuildDirectoryManager] Creating test results directory.
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO BuildDirectoryManager] Creating binaries directory.
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO BuildDirectoryManager] Creating source directory.
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO BuildDirectoryManager] Set repository path for repository self to '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO BuildJobExtension] Checking repository name self
+[2025-06-04 05:42:17Z INFO BuildJobExtension] Downloading task definitions.
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known config file 'TaskExceptionList': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin/tasks-exception-list.json'
+[2025-06-04 05:42:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c637289f-43cb-416e-b43c-95098c8afc2e', success rate: 1/1.
+[2025-06-04 05:42:17Z INFO TaskManager] Skip download checkout task.
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:17Z INFO TaskManager] Ensuring task exists: ID 'd9bafed4-0b18-4f58-968d-86655b4d2ce9', version '2.250.1', name 'CmdLine', directory '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1'.
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'TaskZips': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_taskzips'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:17Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:18Z INFO TaskManager] The 'CmdLine' task downloading started.
+[2025-06-04 05:42:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c637289f-43cb-416e-b43c-95098c8afc2e', success rate: 1/1.
+[2025-06-04 05:42:29Z INFO TaskManager] The 'CmdLine' task downloading finished.
+[2025-06-04 05:42:29Z INFO TaskManager] Finished getting task.
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:29Z INFO BuildJobExtension] Downloading Node 6 runner.
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:42:29Z INFO NodeJsUtil] Node 6 runner already exist.
+[2025-06-04 05:42:29Z INFO BuildJobExtension] Parsing all task's condition inputs.
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'TaskZips': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_taskzips'
+[2025-06-04 05:42:29Z INFO TaskManager] Loading task definition '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'TaskZips': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_taskzips'
+[2025-06-04 05:42:29Z INFO TaskManager] Loading task definition '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:29Z INFO HostContext] Well known directory 'TaskZips': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_taskzips'
+[2025-06-04 05:42:29Z INFO TaskManager] Loading task definition '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-06-04 05:42:29Z INFO BuildJobExtension] Adding pre-job step from extension.
+[2025-06-04 05:42:29Z INFO BuildJobExtension] Adding post-job step from extension.
+[2025-06-04 05:42:29Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-06-04 05:42:29Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-06-04 05:42:29Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-06-04 05:42:29Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-06-04 05:42:29Z INFO BuildJobExtension] Adding post-job steps from tasks.
+[2025-06-04 05:42:29Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-06-04 05:42:30Z INFO JobServerQueue] Stop aggressive process web console line queue.
+[2025-06-04 05:42:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c637289f-43cb-416e-b43c-95098c8afc2e', success rate: 1/1.
+[2025-06-04 05:42:30Z INFO BuildJobExtension] Total accessible running process: 221.
+[2025-06-04 05:42:30Z INFO JobRunner] Total job steps: 5.
+[2025-06-04 05:42:30Z INFO JobRunner] Run all job steps.
+[2025-06-04 05:42:30Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-06-04 05:42:30Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-06-04 05:42:30Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-06-04 05:42:30Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-06-04 05:42:30Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-06-04 05:42:30Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-06-04 05:42:30Z INFO StepsRunner] Processing step: DisplayName='Checkout Sushma-4123/gradle00@main to s', ContinueOnError=False, Enabled=True
+[2025-06-04 05:42:30Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-06-04 05:42:30Z INFO ExpressionManager] Result: True
+[2025-06-04 05:42:30Z INFO StepsRunner] Starting the step.
+[2025-06-04 05:42:30Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2025-06-04 05:42:30Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:30Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:30Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:30Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:30Z INFO TaskRunner] Get handler data for target platform Linux
+[2025-06-04 05:42:30Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2025-06-04 05:42:30Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IWorkerCommandExtension'
+[2025-06-04 05:42:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TaskCommandExtension, Agent.Worker
+[2025-06-04 05:42:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ArtifactCommandExtension, Agent.Worker
+[2025-06-04 05:42:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildCommandExtension, Agent.Worker
+[2025-06-04 05:42:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.CodeCoverage.CodeCoverageCommandExtension, Agent.Worker
+[2025-06-04 05:42:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TestResults.ResultsCommandExtension, Agent.Worker
+[2025-06-04 05:42:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Telemetry.TelemetryCommandExtension, Agent.Worker
+[2025-06-04 05:42:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseCommandExtension, Agent.Worker
+[2025-06-04 05:42:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.PluginInternalCommandExtension, Agent.Worker
+[2025-06-04 05:42:30Z INFO WorkerCommandManager] Register command extension for area task
+[2025-06-04 05:42:30Z INFO WorkerCommandManager] Register command extension for area artifact
+[2025-06-04 05:42:30Z INFO WorkerCommandManager] Register command extension for area build
+[2025-06-04 05:42:30Z INFO WorkerCommandManager] Register command extension for area codecoverage
+[2025-06-04 05:42:30Z INFO WorkerCommandManager] Register command extension for area results
+[2025-06-04 05:42:30Z INFO WorkerCommandManager] Register command extension for area telemetry
+[2025-06-04 05:42:30Z INFO WorkerCommandManager] Register command extension for area release
+[2025-06-04 05:42:30Z INFO WorkerCommandManager] Register command extension for area plugininternal
+[2025-06-04 05:42:30Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CheckoutTask, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CleanupTask, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (post).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTask, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTask, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV1, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_0, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.SavePipelineCacheV0, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (post).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.RestorePipelineCacheV0, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_1, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_2, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_3, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV2_0_0, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV0_140_0, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.BuildArtifacts.DownloadBuildArtifactTaskV1_0_0, Agent.Plugins'.
+[2025-06-04 05:42:30Z INFO AgentPluginManager] Loaded task plugin id 'a433f589-fce1-4460-9ee6-44a624aeb1fb' (main).
+[2025-06-04 05:42:30Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2025-06-04 05:42:30Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:30Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:30Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:30Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin/Agent.PluginHost'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CheckoutTask, Agent.Plugins"'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:42:30Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:42:31Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9810.
+[2025-06-04 05:42:31Z INFO ProcessInvokerWrapper] Process started with process id 9810, waiting for process exit.
+[2025-06-04 05:42:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c637289f-43cb-416e-b43c-95098c8afc2e', success rate: 1/1.
+[2025-06-04 05:42:31Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:42:31Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2025-06-04 05:42:31Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2025-06-04 05:42:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2025-06-04 05:42:31Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:42:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-06-04 05:42:32Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:42:33Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:42:33Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-06-04 05:42:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-06-04 05:42:33Z INFO HostContext] Setting up value for origin: TaskSetSecretCommand
+[2025-06-04 05:42:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-06-04 05:42:34Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-06-04 05:42:36Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-06-04 05:42:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-06-04 05:42:38Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-06-04 05:42:38Z INFO HostContext] Setting up value for origin: Variables_Set_repoUrlWithCred
+[2025-06-04 05:42:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:42:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:42:38Z INFO ProcessInvokerWrapper] Exited process 9810 with exit code 0
+[2025-06-04 05:42:38Z INFO ProcessInvokerWrapper] Finished process 9810 with exit code 0, and elapsed time 00:00:07.9594544.
+[2025-06-04 05:42:38Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2025-06-04 05:42:38Z INFO StepsRunner] Step result: 
+[2025-06-04 05:42:38Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-06-04 05:42:38Z INFO StepsRunner] Current state: job state = ''
+[2025-06-04 05:42:38Z INFO StepsRunner] Processing step: DisplayName='Run a one-line script', ContinueOnError=False, Enabled=True
+[2025-06-04 05:42:38Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-06-04 05:42:38Z INFO ExpressionManager] Result: True
+[2025-06-04 05:42:38Z INFO StepsRunner] Starting the step.
+[2025-06-04 05:42:38Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.250.1 task: True
+[2025-06-04 05:42:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:38Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:38Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:38Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:38Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:38Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:38Z INFO HostContext] Well known directory 'TaskZips': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_taskzips'
+[2025-06-04 05:42:38Z INFO TaskManager] Loading task definition '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-06-04 05:42:38Z INFO TaskRunner] Get handler data for target platform Linux
+[2025-06-04 05:42:38Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.Node20_1HandlerData
+[2025-06-04 05:42:38Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-06-04 05:42:38Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-06-04 05:42:38Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2025-06-04 05:42:38Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:42:38Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:42:38Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:42:38Z INFO TaskRunner] Build JobExtension resolved a rooted path:: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:42:38Z INFO NodeHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-06-04 05:42:38Z INFO TaskRunner] Current handler is Node. Trying to determing the SDK version.
+[2025-06-04 05:42:38Z INFO TaskRunner] Node SDK version: 4.17.3. Correlation ID is required: True.
+[2025-06-04 05:42:39Z INFO NodeHandler] AZP_AGENT_IGNORE_VSTSTASKLIB enabled, ignoring fix
+[2025-06-04 05:42:39Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:39Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:39Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:42:39Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:39Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:39Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals/node20_1/bin/node'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Arguments: '-v'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9864.
+[2025-06-04 05:42:39Z INFO ProcessInvokerWrapper] Process started with process id 9864, waiting for process exit.
+[2025-06-04 05:42:39Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-06-04 05:42:39Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f8ed7bd8-2a7f-56f6-9385-7fc29a8b5b7b', success rate: 1/1.
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper] Exited process 9864 with exit code 0
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper] Finished process 9864 with exit code 0, and elapsed time 00:00:01.3815423.
+[2025-06-04 05:42:40Z INFO NodeHandler] Task.json has node20_1 handler data: True node20ResultsInGlibCError = False
+[2025-06-04 05:42:40Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:40Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:40Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:42:40Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:40Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:40Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals/node20_1/bin/node'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Arguments: '"/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/cmdline.js"'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9866.
+[2025-06-04 05:42:40Z INFO ProcessInvokerWrapper] Process started with process id 9866, waiting for process exit.
+[2025-06-04 05:42:40Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-06-04 05:42:42Z INFO ExecutionContext] Force finish current task in 5 sec.
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] Exited process 9866 with exit code 0
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] Finished process 9866 with exit code 0, and elapsed time 00:00:02.0286535.
+[2025-06-04 05:42:42Z INFO StepsRunner] Step result: Succeeded
+[2025-06-04 05:42:42Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-06-04 05:42:42Z INFO StepsRunner] Current state: job state = ''
+[2025-06-04 05:42:42Z INFO StepsRunner] Processing step: DisplayName='Building the gradle application', ContinueOnError=False, Enabled=True
+[2025-06-04 05:42:42Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-06-04 05:42:42Z INFO ExpressionManager] Result: True
+[2025-06-04 05:42:42Z INFO StepsRunner] Starting the step.
+[2025-06-04 05:42:42Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.250.1 task: True
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'TaskZips': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_taskzips'
+[2025-06-04 05:42:42Z INFO TaskManager] Loading task definition '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-06-04 05:42:42Z INFO TaskRunner] Get handler data for target platform Linux
+[2025-06-04 05:42:42Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.Node20_1HandlerData
+[2025-06-04 05:42:42Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-06-04 05:42:42Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-06-04 05:42:42Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2025-06-04 05:42:42Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:42:42Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:42:42Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:42:42Z INFO TaskRunner] Build JobExtension resolved a rooted path:: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:42:42Z INFO NodeHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-06-04 05:42:42Z INFO TaskRunner] Current handler is Node. Trying to determing the SDK version.
+[2025-06-04 05:42:42Z INFO TaskRunner] Node SDK version: 4.17.3. Correlation ID is required: True.
+[2025-06-04 05:42:42Z INFO NodeHandler] AZP_AGENT_IGNORE_VSTSTASKLIB enabled, ignoring fix
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals/node20_1/bin/node'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Arguments: '-v'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9875.
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] Process started with process id 9875, waiting for process exit.
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] Exited process 9875 with exit code 0
+[2025-06-04 05:42:42Z INFO ProcessInvokerWrapper] Finished process 9875 with exit code 0, and elapsed time 00:00:00.0235473.
+[2025-06-04 05:42:42Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f8ed7bd8-2a7f-56f6-9385-7fc29a8b5b7b', success rate: 1/1.
+[2025-06-04 05:42:42Z INFO NodeHandler] Task.json has node20_1 handler data: True node20ResultsInGlibCError = False
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:42Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:42:43Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:42:43Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:42:43Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals/node20_1/bin/node'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Arguments: '"/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/cmdline.js"'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9876.
+[2025-06-04 05:42:43Z INFO ProcessInvokerWrapper] Process started with process id 9876, waiting for process exit.
+[2025-06-04 05:42:43Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f8ed7bd8-2a7f-56f6-9385-7fc29a8b5b7b', success rate: 1/1.
+[2025-06-04 05:42:43Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-06-04 05:42:44Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-06-04 05:42:44Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-06-04 05:43:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-06-04 05:43:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-06-04 05:43:19Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-06-04 05:43:19Z INFO ExecutionContext] Force finish current task in 5 sec.
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper] Exited process 9876 with exit code 0
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper] Finished process 9876 with exit code 0, and elapsed time 00:00:36.7211552.
+[2025-06-04 05:43:19Z INFO StepsRunner] Step result: Succeeded
+[2025-06-04 05:43:19Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-06-04 05:43:19Z INFO StepsRunner] Current state: job state = ''
+[2025-06-04 05:43:19Z INFO StepsRunner] Processing step: DisplayName='Running gradle application', ContinueOnError=False, Enabled=True
+[2025-06-04 05:43:19Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-06-04 05:43:19Z INFO ExpressionManager] Result: True
+[2025-06-04 05:43:19Z INFO StepsRunner] Starting the step.
+[2025-06-04 05:43:19Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.250.1 task: True
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'TaskZips': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_taskzips'
+[2025-06-04 05:43:19Z INFO TaskManager] Loading task definition '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-06-04 05:43:19Z INFO TaskRunner] Get handler data for target platform Linux
+[2025-06-04 05:43:19Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.Node20_1HandlerData
+[2025-06-04 05:43:19Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-06-04 05:43:19Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-06-04 05:43:19Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2025-06-04 05:43:19Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:43:19Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:43:19Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:43:19Z INFO TaskRunner] Build JobExtension resolved a rooted path:: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s
+[2025-06-04 05:43:19Z INFO NodeHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-06-04 05:43:19Z INFO TaskRunner] Current handler is Node. Trying to determing the SDK version.
+[2025-06-04 05:43:19Z INFO TaskRunner] Node SDK version: 4.17.3. Correlation ID is required: True.
+[2025-06-04 05:43:19Z INFO NodeHandler] AZP_AGENT_IGNORE_VSTSTASKLIB enabled, ignoring fix
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:43:19Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals/node20_1/bin/node'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Arguments: '-v'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9937.
+[2025-06-04 05:43:19Z INFO ProcessInvokerWrapper] Process started with process id 9937, waiting for process exit.
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper] Exited process 9937 with exit code 0
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper] Finished process 9937 with exit code 0, and elapsed time 00:00:00.1396722.
+[2025-06-04 05:43:20Z INFO NodeHandler] Task.json has node20_1 handler data: True node20ResultsInGlibCError = False
+[2025-06-04 05:43:20Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:20Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:43:20Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:43:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-06-04 05:43:20Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:20Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:43:20Z INFO HostContext] Well known directory 'Externals': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/externals/node20_1/bin/node'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Arguments: '"/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/cmdline.js"'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/1/s'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9939.
+[2025-06-04 05:43:20Z INFO ProcessInvokerWrapper] Process started with process id 9939, waiting for process exit.
+[2025-06-04 05:43:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-06-04 05:43:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'bd05475d-acb5-5619-3ccb-c46842dbc997', success rate: 1/1.
+[2025-06-04 05:43:22Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-06-04 05:43:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'bd05475d-acb5-5619-3ccb-c46842dbc997', success rate: 1/1.
+[2025-06-04 05:43:24Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'bd05475d-acb5-5619-3ccb-c46842dbc997', success rate: 1/1.
+[2025-06-04 05:43:25Z INFO ExecutionContext] Force finish current task in 5 sec.
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] Exited process 9939 with exit code 0
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] Finished process 9939 with exit code 0, and elapsed time 00:00:04.7723078.
+[2025-06-04 05:43:25Z INFO StepsRunner] Step result: Failed
+[2025-06-04 05:43:25Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2025-06-04 05:43:25Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-06-04 05:43:25Z INFO StepsRunner] Processing step: DisplayName='Checkout Sushma-4123/gradle00@main to s', ContinueOnError=False, Enabled=True
+[2025-06-04 05:43:25Z INFO ExpressionManager] Evaluating: AlwaysNode()
+[2025-06-04 05:43:25Z INFO ExpressionManager] Result: True
+[2025-06-04 05:43:25Z INFO StepsRunner] Starting the step.
+[2025-06-04 05:43:25Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Tasks': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_tasks'
+[2025-06-04 05:43:25Z INFO TaskRunner] Get handler data for target platform Linux
+[2025-06-04 05:43:25Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2025-06-04 05:43:25Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-06-04 05:43:25Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] Starting process:
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   File name: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin/Agent.PluginHost'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CleanupTask, Agent.Plugins"'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Working directory: '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9989.
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] Process started with process id 9989, waiting for process exit.
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2025-06-04 05:43:25Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'bd05475d-acb5-5619-3ccb-c46842dbc997', success rate: 1/1.
+[2025-06-04 05:43:25Z INFO JobServerQueue] Try to append 1 batches web console lines for record '23f317f4-8c83-48d5-aec9-b7abf0292c2c', success rate: 1/1.
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] Exited process 9989 with exit code 0
+[2025-06-04 05:43:25Z INFO ProcessInvokerWrapper] Finished process 9989 with exit code 0, and elapsed time 00:00:00.7887845.
+[2025-06-04 05:43:25Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2025-06-04 05:43:25Z INFO StepsRunner] Step result: 
+[2025-06-04 05:43:25Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-06-04 05:43:25Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-06-04 05:43:25Z INFO JobRunner] Finalize job.
+[2025-06-04 05:43:25Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Bin': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/bin'
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Root': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0'
+[2025-06-04 05:43:25Z INFO HostContext] Well known directory 'Work': '/home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work'
+[2025-06-04 05:43:26Z INFO BuildJobExtension] Total accessible running process: 222.
+[2025-06-04 05:43:26Z INFO BuildJobExtension] Inspecting process environment variables. PID: 25 (kworker/1:0-mm_percpu_wq)
+[2025-06-04 05:43:26Z INFO ProcessExtensions] Read env from /proc/25/environ
+[2025-06-04 05:43:26Z WARN BuildJobExtension] Ignore exception during read process environment variables: Access to the path '/proc/25/environ' is denied.
+[2025-06-04 05:43:26Z INFO BuildJobExtension] Inspecting process environment variables. PID: 8392 (kworker/u5:1-flush-8:0)
+[2025-06-04 05:43:26Z INFO ProcessExtensions] Read env from /proc/8392/environ
+[2025-06-04 05:43:26Z WARN BuildJobExtension] Ignore exception during read process environment variables: Access to the path '/proc/8392/environ' is denied.
+[2025-06-04 05:43:26Z INFO BuildJobExtension] Inspecting process environment variables. PID: 8583 (kworker/u6:2-events_power_efficient)
+[2025-06-04 05:43:26Z INFO ProcessExtensions] Read env from /proc/8583/environ
+[2025-06-04 05:43:26Z WARN BuildJobExtension] Ignore exception during read process environment variables: Access to the path '/proc/8583/environ' is denied.
+[2025-06-04 05:43:26Z INFO BuildJobExtension] Inspecting process environment variables. PID: 9423 (kworker/u6:0-flush-8:0)
+[2025-06-04 05:43:26Z INFO ProcessExtensions] Read env from /proc/9423/environ
+[2025-06-04 05:43:26Z WARN BuildJobExtension] Ignore exception during read process environment variables: Access to the path '/proc/9423/environ' is denied.
+[2025-06-04 05:43:26Z INFO BuildJobExtension] Inspecting process environment variables. PID: 9538 (kworker/u5:2-flush-8:0)
+[2025-06-04 05:43:26Z INFO ProcessExtensions] Read env from /proc/9538/environ
+[2025-06-04 05:43:26Z WARN BuildJobExtension] Ignore exception during read process environment variables: Access to the path '/proc/9538/environ' is denied.
+[2025-06-04 05:43:26Z INFO BuildJobExtension] Inspecting process environment variables. PID: 9584 (kworker/1:1H-kblockd)
+[2025-06-04 05:43:26Z INFO ProcessExtensions] Read env from /proc/9584/environ
+[2025-06-04 05:43:26Z WARN BuildJobExtension] Ignore exception during read process environment variables: Access to the path '/proc/9584/environ' is denied.
+[2025-06-04 05:43:26Z INFO BuildJobExtension] Inspecting process environment variables. PID: 9758 (kworker/u5:4-events_power_efficient)
+[2025-06-04 05:43:26Z INFO ProcessExtensions] Read env from /proc/9758/environ
+[2025-06-04 05:43:26Z WARN BuildJobExtension] Ignore exception during read process environment variables: Access to the path '/proc/9758/environ' is denied.
+[2025-06-04 05:43:26Z INFO BuildJobExtension] Inspecting process environment variables. PID: 9916 (kworker/u6:3-events_power_efficient)
+[2025-06-04 05:43:26Z INFO ProcessExtensions] Read env from /proc/9916/environ
+[2025-06-04 05:43:26Z WARN BuildJobExtension] Ignore exception during read process environment variables: Access to the path '/proc/9916/environ' is denied.
+[2025-06-04 05:43:26Z INFO JobRunner] Job result after all job steps finish: Failed
+[2025-06-04 05:43:26Z INFO JobRunner] Completing the job execution context.
+[2025-06-04 05:43:26Z INFO JobServerQueue] Try to append 1 batches web console lines for record '23f317f4-8c83-48d5-aec9-b7abf0292c2c', success rate: 1/1.
+[2025-06-04 05:43:26Z INFO JobRunner] Shutting down the job server queue.
+[2025-06-04 05:43:26Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2025-06-04 05:43:26Z INFO JobServerQueue] Try to append 1 batches web console lines for record '90064fb7-fe22-4cf3-a277-0a5b6aa0dc70', success rate: 1/1.
+[2025-06-04 05:43:27Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-06-04 05:43:28Z INFO JobServerQueue] All queue process task stopped.
+[2025-06-04 05:43:28Z INFO JobServerQueue] Try to append 1 batches web console lines for record '90064fb7-fe22-4cf3-a277-0a5b6aa0dc70', success rate: 1/1.
+[2025-06-04 05:43:28Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2025-06-04 05:43:28Z INFO JobServerQueue] Web console line queue drained.
+[2025-06-04 05:43:28Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2025-06-04 05:43:31Z WARN VisualStudioServices] Attempt 1 of POST request to https://vsblobprodcin1.vsblob.visualstudio.com/Ac1aef65c-7fc9-4949-9e78-2f4eb5c73b9d/_apis/blob/blobs/F4B00DAC56D78362AD6B08ED2D49ECA9CF680E555F6A896DD28E3573213AA6D100 failed (HTTP Status: ServiceUnavailable, AFD Ref: Ref A: AF225D7686FA4265807CA83CB80F1945 Ref B: MAA01EDGE1519 Ref C: 2025-06-04T05:43:31Z). The operation will be retried in 11.0715753 seconds.
+[2025-06-04 05:43:43Z WARN VisualStudioServices] Attempt 2 of POST request to https://vsblobprodcin1.vsblob.visualstudio.com/Ac1aef65c-7fc9-4949-9e78-2f4eb5c73b9d/_apis/blob/blobs/F4B00DAC56D78362AD6B08ED2D49ECA9CF680E555F6A896DD28E3573213AA6D100 failed (Socket Error: ConnectionReset). The operation will be retried in 12.6043195 seconds.
+[2025-06-04 05:44:48Z WARN VisualStudioServices] Attempt 1 of POST request to https://dev.azure.com/gg00/273f59d0-0472-4219-bb15-7c2001061c5f/_apis/distributedtask/hubs/Build/plans/baff3bc1-3d3a-4d5c-8bdf-efe1c019484f/logs/9 failed (Socket Error: ConnectionReset). The operation will be retried in 10.9192396 seconds.
+[2025-06-04 05:45:02Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2025-06-04 05:45:02Z INFO JobServerQueue] File upload queue drained.
+[2025-06-04 05:45:02Z INFO JobServerQueue] Timeline update queue drained.
+[2025-06-04 05:45:02Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2025-06-04 05:45:02Z INFO TempDirectoryManager] Cleaning agent temp folder: /home/shruthi/Desktop/gradle55/vsts-agent-linux-x64-4.255.0/_work/_temp
+[2025-06-04 05:45:02Z INFO JobRunner] Raising job completed event.
+[2025-06-04 05:45:03Z INFO Worker] Job completed.
